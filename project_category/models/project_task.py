@@ -7,5 +7,5 @@ class ProjectTask(models.Model):
     _inherit = "project.task"
 
     type_id = fields.Many2one(
-        comodel_name="project.type", string="Type", domain="[('task_ok', '=', True)]"
+        comodel_name="project.type", string="Project TypeId", domain="[('task_ok', '=', True)]"
     )
