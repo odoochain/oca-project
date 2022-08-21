@@ -11,7 +11,7 @@
         <field name="inherit_id" ref="project.view_task_form2" />
         <field name="arch" type="xml">
             <field name="user_id" position="before">
-                <field name="allowed_hr_category_ids" invisible="1" />
+<!--                <field name="allowed_hr_category_ids" invisible="1" />-->
                 <field name="allowed_assigned_user_ids" invisible="1" />
                 <field
                     name="hr_category_ids"
