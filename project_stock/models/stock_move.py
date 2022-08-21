@@ -62,13 +62,13 @@ class StockMove(models.Model):
                 .id
             )
         # tags + distributions
-        if task.stock_analytic_tag_ids:
-            vals["tag_ids"] = [(6, 0, task.stock_analytic_tag_ids.ids)]
+        if task.analytic_tag_ids:
+            vals["tag_ids"] = [(6, 0, task.analytic_tag_ids.ids)]
             new_amount = 0
             distributions = self.env["account.analytic.distribution"].search(
                 [
                     ("account_id", "=", analytic_account.id),
-                    ("tag_id", "in", task.stock_analytic_tag_ids.ids),
+                    ("tag_id", "in", task.analytic_tag_ids.ids),
                     ("percentage", ">", 0),
                 ]
             )

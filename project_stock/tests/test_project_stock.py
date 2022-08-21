@@ -44,7 +44,7 @@ class TestProjectStock(TestProjectStockBase):
             sum(self.task.stock_analytic_line_ids.mapped("amount")), amount
         )
         self.assertEqual(
-            self.task.stock_analytic_tag_ids,
+            self.task.analytic_tag_ids,
             self.task.stock_analytic_line_ids.mapped("tag_ids"),
         )
         self.assertIn(
@@ -67,13 +67,13 @@ class TestProjectStock(TestProjectStockBase):
         self._test_task_analytic_lines_from_task(-40)
 
     def test_project_task_analytic_lines_with_tag_1(self):
-        self.task.write({"stock_analytic_tag_ids": self.analytic_tag_1.ids})
+        self.task.write({"analytic_tag_ids": self.analytic_tag_1.ids})
         self.task.write({"stage_id": self.stage_done.id})
         self.task.action_done()
         self._test_task_analytic_lines_from_task(-40)
 
     def test_project_task_analytic_lines_with_tag_2(self):
-        self.task.write({"stock_analytic_tag_ids": self.analytic_tag_2.ids})
+        self.task.write({"analytic_tag_ids": self.analytic_tag_2.ids})
         self.task.write({"stage_id": self.stage_done.id})
         self.task.action_done()
         self._test_task_analytic_lines_from_task(-20)

@@ -71,7 +71,7 @@ class Task(models.Model):
         string="Move Analytic Account",
         help="Move created will be assigned to this analytic account",
     )
-    stock_analytic_tag_ids = fields.Many2many(
+    analytic_tag_ids = fields.Many2many(
         comodel_name="account.analytic.tag",
         string="Move Analytic Tags",
     )
