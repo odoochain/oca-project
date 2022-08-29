@@ -9,7 +9,7 @@
     "author": "Onestein, Odoo Community Association (OCA)",
     "maintainers": ["astirpe"],
     "license": "AGPL-3",
-    "category": "Project",
+    'category': 'Services/Project',
     "website": "https://github.com/OCA/project",
     "depends": ["project"],
     "data": ["views/project_task_view.xml"],

@@ -7,7 +7,7 @@
     "author": "Camptocamp, Odoo Community Association (OCA)",
     "maintainer": "Camptocamp",
     "license": "AGPL-3",
-    "category": "Project",
+    'category': 'Services/Project',
     "complexity": "easy",
     "depends": ["project_purchase", "purchase_analytic_global"],
     "website": "https://github.com/OCA/project",

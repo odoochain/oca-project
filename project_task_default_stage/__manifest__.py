@@ -6,7 +6,7 @@
     "name": "Project Task Default Stage",
     "summary": "Recovery default task stages for projects from v8",
     "version": "15.0.1.0.0",
-    "category": "Project",
+    'category': 'Services/Project',
     "author": "Tecnativa, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/project",
     "license": "AGPL-3",

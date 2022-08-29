@@ -4,7 +4,7 @@
 {
     "name": "Project Duplicate subtask",
     "version": "15.0.1.0.0",
-    "category": "Project",
+    'category': 'Services/Project',
     "website": "https://github.com/OCA/project",
     "summary": "The module adds an action to duplicate tasks with the child subtasks",
     "author": "Forgeflow, Odoo Community Association (OCA)",

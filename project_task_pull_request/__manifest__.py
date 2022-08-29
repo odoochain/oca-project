@@ -5,7 +5,7 @@
     "name": "Project Task Pull Request",
     "summary": "Adds a field for a PR URI to project tasks",
     "version": "15.0.1.0.1",
-    "category": "Project Management",
+    'category': 'Services/Project',
     "website": "https://github.com/OCA/project",
     "author": "SMDrugstore, " "Tecnativa, " "Odoo Community Association (OCA)",
     "license": "AGPL-3",

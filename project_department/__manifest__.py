@@ -5,7 +5,7 @@
     "version": "15.0.1.0.1",
     "author": "Camptocamp, Daniel Reis, Odoo Community Association (OCA)",
     "license": "AGPL-3",
-    "category": "Generic Modules/Projects & Services",
+    'category': 'Services/Project',
     "website": "https://github.com/OCA/project",
     "depends": [
         "project",

@@ -5,7 +5,7 @@
 {
     "name": "Projects List View",
     "version": "15.0.2.0.0",
-    "category": "Project",
+    'category': 'Services/Project',
     "website": "https://github.com/OCA/project",
     "author": "CorporateHub, Odoo Community Association (OCA)",
     "license": "AGPL-3",

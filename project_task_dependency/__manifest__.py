@@ -5,7 +5,7 @@
 {
     "name": "Project Task Dependencies",
     "version": "15.0.1.0.0",
-    "category": "Project",
+    'category': 'Services/Project',
     "website": "https://github.com/OCA/project",
     "summary": "Enables to define dependencies (other tasks) of a task",
     "author": "Onestein,Odoo Community Association (OCA)",

@@ -6,7 +6,7 @@
     "version": "15.0.1.0.0",
     "author": "Camptocamp SA, Odoo Community Association (OCA)",
     "license": "AGPL-3",
-    "category": "Project",
+    'category': 'Services/Project',
     "website": "https://github.com/OCA/project",
     "depends": ["project_forecast_line", "web_widget_bokeh_chart"],
     "data": [
