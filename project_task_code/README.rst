@@ -23,9 +23,9 @@ Sequential Code for Tasks
     :target: https://runbot.odoo-community.org/runbot/140/14.0
     :alt: Try me on Runbot
 
-|badge1| |badge2| |badge3| |badge4| |badge5| 
+|badge1| |badge2| |badge3| |badge4| |badge5|
 
-This module adds a sequential code for tasks.
+This module adds a sequential code for tasks. / 该模块为任务添加了顺序代码
 
 **Table of contents**
 
