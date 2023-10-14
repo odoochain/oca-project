@@ -7,8 +7,8 @@
 <odoo>
 
     <record id="project_task_timeline" model="ir.ui.view">
+        <field name="name">project_timeline.task</field>
         <field name="model">project.task</field>
-        <field name="type">timeline</field>
         <field name="arch" type="xml">
             <timeline
                 date_start="date_start"
@@ -58,8 +58,8 @@
         >kanban,tree,form,calendar,timeline,pivot,graph,activity</field>
     </record>
     <record id="view_task_project_user_timeline" model="ir.ui.view">
+        <field name="name">project_timeline.task_project_user_timeline</field>
         <field name="model">report.project.task.user</field>
-        <field name="type">timeline</field>
         <field name="arch" type="xml">
             <timeline
                 date_start="date_assign"
