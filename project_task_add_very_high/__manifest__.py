@@ -14,5 +14,8 @@
     "depends": ["project"],
     "data": ["views/project_task_view.xml"],
     "installable": True,
+    "excludes":[
+      "project_scrum_alige",
+    ],
     "uninstall_hook": "uninstall_hook",
 }

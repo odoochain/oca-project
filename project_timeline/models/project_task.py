@@ -9,7 +9,7 @@ from odoo import fields, models
 class ProjectTask(models.Model):
     _inherit = "project.task"
 
-    date_start = fields.Datetime("Start Date")
+    date_start = fields.Datetime("Date Start")
 
     def update_date_end(self, stage_id):
         res = super().update_date_end(stage_id)
